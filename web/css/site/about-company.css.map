@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACV,UAAU,EAAE,4BAA4B;EACxC,OAAO,EAAE,MAAM;EACf,qBAAQ;IACN,UAAU,EAAE,kCAAkC;IAC9C,UAAU,EAAE,KAAK;IACjB,OAAO,EAAE,IAAI;IACb,wBAAE;MACA,MAAM,EAAE,CAAC;MACT,aAAa,EAAE,IAAI",
+"sources": ["about-company.scss"],
+"names": [],
+"file": "about-company.css"
+}

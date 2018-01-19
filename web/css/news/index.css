@@ -1,0 +1,116 @@
+.news-index {
+  background: url("/images/site/back.jpg");
+  padding: 27px 0;
+  min-height: 625px; }
+  .news-index h3 {
+    font-size: 24px; }
+  .news-index .item {
+    border: 1px solid #c2c2c2;
+    margin-bottom: 23px;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden; }
+    .news-index .item .image {
+      float: left;
+      position: relative; }
+      .news-index .item .image:after {
+        content: "\f00e";
+        font: normal normal normal 14px/1 FontAwesome;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        color: white;
+        font-size: 30px;
+        background: rgba(142, 14, 0, 0.8);
+        position: absolute;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        -webkit-justify-content: center;
+        align-items: center;
+        -webkit-align-items: center;
+        opacity: 0;
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all; }
+      .news-index .item .image:hover:after {
+        opacity: 1; }
+    .news-index .item .info {
+      margin-left: 235px; }
+      .news-index .item .info h4 {
+        font-size: 18px;
+        margin: 0; }
+      .news-index .item .info .type {
+        text-align: center;
+        width: 161px;
+        color: white;
+        font-size: 12px;
+        line-height: 22px;
+        text-decoration: none;
+        background: #ae1100;
+        display: inline-block;
+        margin: 8px 0px; }
+      .news-index .item .info .text {
+        font-size: 14px;
+        line-height: 18px; }
+  .news-index .block-1, .news-index .block-2, .news-index .block-3 {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    background: white; }
+  .news-index .block-1 {
+    padding: 10px 25px;
+    margin-bottom: 30px; }
+  .news-index .block-2 {
+    margin-bottom: 30px; }
+  .news-index .desc-item {
+    padding-top: 1px;
+    padding-bottom: 11px; }
+    .news-index .desc-item h3 {
+      padding-left: 20px;
+      margin-bottom: 14px; }
+    .news-index .desc-item .title {
+      margin-bottom: 11px;
+      font-size: 16px;
+      background: #ae1100;
+      color: white;
+      padding-left: 20px; }
+      .news-index .desc-item .title i {
+        padding-right: 10px; }
+    .news-index .desc-item ul li {
+      list-style-type: square;
+      color: #ae1100; }
+      .news-index .desc-item ul li a {
+        color: black; }
+        .news-index .desc-item ul li a:hover {
+          color: #ae1100; }
+  .news-index .give-catalog {
+    padding: 1px 28px 0px 23px; }
+    .news-index .give-catalog p {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 16px; }
+    .news-index .give-catalog h3 {
+      margin-bottom: 2px; }
+    .news-index .give-catalog form input {
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 15px;
+      line-height: 37px; }
+    .news-index .give-catalog form .name, .news-index .give-catalog form .phone {
+      text-indent: 15px; }
+    .news-index .give-catalog form .send {
+      text-align: center;
+      background: #ae1100;
+      color: white;
+      border: none;
+      margin-top: -5pd; }
+
+@media (max-width: 500px) {
+  .item .image {
+    float: none !important;
+    margin-bottom: 10px; }
+  .item .info {
+    margin-left: 0px !important; } }
+
+/*# sourceMappingURL=index.css.map */

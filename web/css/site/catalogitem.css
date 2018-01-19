@@ -1,0 +1,52 @@
+.catalog-item-page {
+  background: url("/images/site/back.jpg");
+  padding: 35px 0; }
+  .catalog-item-page .card {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    background: white;
+    overflow: auto; }
+  .catalog-item-page h3 {
+    font-size: 24px; }
+  .catalog-item-page .sidebar {
+    margin-left: 15px;
+    margin-right: -15px;
+    margin-bottom: 30px; }
+    .catalog-item-page .sidebar h3 {
+      margin: 20px 0;
+      padding-left: 20px; }
+    .catalog-item-page .sidebar .title {
+      font-size: 16px;
+      background: #ae1100;
+      color: white;
+      padding-left: 20px;
+      height: 24px; }
+      .catalog-item-page .sidebar .title i {
+        font-size: 14px;
+        padding-right: 10px; }
+    .catalog-item-page .sidebar ul {
+      margin: 15px 0; }
+      .catalog-item-page .sidebar ul li {
+        list-style-type: square;
+        color: #ae1100; }
+        .catalog-item-page .sidebar ul li span {
+          color: black; }
+  .catalog-item-page .subscribe {
+    margin-left: 15px;
+    margin-right: -15px;
+    padding: 0px 20px; }
+    .catalog-item-page .subscribe p {
+      font-size: 16px; }
+    .catalog-item-page .subscribe form input {
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 15px;
+      line-height: 40px; }
+    .catalog-item-page .subscribe form .name, .catalog-item-page .subscribe form .phone {
+      text-indent: 25px; }
+    .catalog-item-page .subscribe form .send {
+      text-align: center;
+      background: #ae1100;
+      color: white;
+      border: none; }
+
+/*# sourceMappingURL=catalogitem.css.map */

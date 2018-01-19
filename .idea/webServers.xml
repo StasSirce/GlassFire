@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="731a8c4c-1e87-48ef-acd1-25a13831d016" name="glassfire" url="http://ensolab.ru">
+        <fileTransfer host="ensolab.ru" port="21" rootFolder="/www/glassfire.ensolab.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5fd470a1-880b-42ab-a69f-7610d3500260" name="production" url="http://ftp.glassfire.co">
+        <fileTransfer host="ftp.glassfire.co" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

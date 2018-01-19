@@ -1,0 +1,49 @@
+.certificates-index {
+    background: url("/images/site/back.jpg");
+    padding: 27px 0;
+    min-height: 625px;
+    
+    .item {
+        border: 1px solid #c2c2c2;
+        margin-bottom: 23px;
+        padding: 20px 0;
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        overflow: hidden;
+        height: 260px;
+        cursor: pointer;
+        text-align: center;
+        img {
+            margin-bottom: 5px;
+            max-width: 90%;
+        }
+        
+        .title {
+            padding: 0 10px;
+        }
+        
+    }
+    .block-1, .block-2, .block-3 {
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+        background: white;
+    }
+    
+    .block-1 {
+        padding: 10px 25px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media(max-width: 500px) {
+    .item {
+        .image {
+            float: none !important;
+            margin-bottom: 10px;
+        }
+        .info {
+            margin-left: 0px !important;
+        }
+    }
+}

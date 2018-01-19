@@ -1,0 +1,303 @@
+#index-page {
+  overflow: hidden; }
+  #index-page #carousel {
+    position: relative; }
+    #index-page #carousel .owl-controls {
+      color: #252525; }
+      #index-page #carousel .owl-controls .owl-nav {
+        font-size: 60px; }
+        #index-page #carousel .owl-controls .owl-nav .owl-prev {
+          position: absolute;
+          cursor: pointer;
+          top: 39%;
+          left: 26px; }
+        #index-page #carousel .owl-controls .owl-nav .owl-next {
+          position: absolute;
+          cursor: pointer;
+          top: 39%;
+          right: 26px; }
+      #index-page #carousel .owl-controls .owl-dots {
+        font-size: 20px;
+        position: absolute;
+        bottom: 65px;
+        left: calc(50% - 16px); }
+        #index-page #carousel .owl-controls .owl-dots .owl-dot {
+          float: left;
+          margin-right: 6px;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          border: 2px solid #252525; }
+        #index-page #carousel .owl-controls .owl-dots .owl-dot.active {
+          background: #252525;
+          margin-right: 6px;
+          float: left; }
+    #index-page #carousel .slider {
+      position: relative;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      position: relative;
+      border-bottom: 5px solid #ae1100;
+      min-height: 436px;
+      padding-top: 40px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      background-position: top right; }
+      #index-page #carousel .slider:before {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        min-height: 431px;
+        content: "";
+        background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.68) 1%, rgba(255, 255, 255, 0.79) 26%, rgba(255, 255, 255, 0.9) 50%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.68) 1%, rgba(255, 255, 255, 0.79) 26%, rgba(255, 255, 255, 0.9) 50%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.68) 1%, rgba(255, 255, 255, 0.79) 26%, rgba(255, 255, 255, 0.9) 50%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adffffff', endColorstr='#e6ffffff',GradientType=1 );
+        /* IE6-9 fallback on horizontal gradient */ }
+      #index-page #carousel .slider .item h3 {
+        font-size: 36px; }
+      #index-page #carousel .slider .item .description {
+        font-size: 16px;
+        margin-bottom: 25px;
+        line-height: 20px; }
+      #index-page #carousel .slider .item a {
+        text-decoration: none;
+        color: white;
+        background: black;
+        padding: 5px 20px;
+        font-size: 20px;
+        display: inline-block; }
+  #index-page .production h4 {
+    font-size: 24px;
+    text-align: center;
+    margin: 19px 0 30px; }
+  #index-page .production .row .cube {
+    margin-bottom: 20px;
+    overflow: hidden; }
+    #index-page .production .row .cube img {
+      width: 111px;
+      height: 111px;
+      float: left; }
+    #index-page .production .row .cube h6 {
+      font-size: 18px;
+      margin: 0;
+      margin-bottom: 8px;
+      margin-left: 122px;
+      -webkit-text-stroke: thin; }
+    #index-page .production .row .cube .desc {
+      font-size: 14px;
+      margin-left: 122px;
+      padding-right: 3px;
+      line-height: 17px; }
+  #index-page .production .buttons {
+    text-align: center;
+    margin-bottom: 26px; }
+    #index-page .production .buttons a {
+      margin-bottom: 10px;
+      font-size: 18px;
+      text-decoration: none;
+      border: 2px dotted #ae1100;
+      color: #b22e28;
+      line-height: 35px;
+      display: inline-block;
+      -webkit-text-stroke: thin; }
+      #index-page .production .buttons a:hover {
+        background: #ae1100;
+        color: white;
+        border: 2px solid #ae1100; }
+    #index-page .production .buttons .all-item {
+      width: 242px;
+      margin-right: 22px; }
+    #index-page .production .buttons .our-object {
+      width: 154px; }
+  #index-page .documents {
+    position: relative;
+    background: url("/images/site/bg-sl.jpg");
+    padding: 5px 0 41px; }
+    #index-page .documents h3 {
+      font-size: 24px;
+      text-align: center;
+      color: white;
+      margin-bottom: 24px; }
+    #index-page .documents .item {
+      text-align: center; }
+      #index-page .documents .item img {
+        width: auto;
+        display: inline-block; }
+    #index-page .documents .owl-controls {
+      color: white; }
+      #index-page .documents .owl-controls .owl-nav {
+        font-size: 60px; }
+        #index-page .documents .owl-controls .owl-nav .owl-prev {
+          position: absolute;
+          cursor: pointer;
+          top: 23%;
+          left: -180px; }
+        #index-page .documents .owl-controls .owl-nav .owl-next {
+          position: absolute;
+          cursor: pointer;
+          top: 23%;
+          right: -180px; }
+  #index-page .consultation {
+    padding: 28px 0 23px;
+    background: url("/images/site/back.jpg"); }
+    #index-page .consultation .row form input {
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 8px;
+      line-height: 40px; }
+    #index-page .consultation .row form .name, #index-page .consultation .row form .phone {
+      text-indent: 25px; }
+    #index-page .consultation .row form .send {
+      text-align: center;
+      background: #ae1100;
+      color: white;
+      border: none; }
+    #index-page .consultation .free-consultation {
+      margin-bottom: 20px; }
+      #index-page .consultation .free-consultation h3 {
+        font-size: 24px;
+        margin-bottom: 2px;
+        margin-top: 0; }
+      #index-page .consultation .free-consultation .text {
+        margin-bottom: 10px;
+        margin-top: 0; }
+      #index-page .consultation .free-consultation span {
+        display: block; }
+        #index-page .consultation .free-consultation span i {
+          padding-right: 5px; }
+  #index-page .section-object {
+    background: url("/images/site/bg-sl.jpg");
+    padding: 5px 0 27px; }
+    #index-page .section-object h3 {
+      font-size: 24px;
+      margin-bottom: 23px;
+      color: white;
+      text-align: center; }
+    #index-page .section-object .info {
+      color: white;
+      margin-bottom: 30px;
+      position: relative; }
+      #index-page .section-object .info img {
+        width: 100%; }
+      #index-page .section-object .info .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(142, 14, 0, 0.8);
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        -webkit-justify-content: center;
+        align-items: center;
+        -webkit-align-items: center;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        opacity: 0;
+        -webkit-transition: opacity 200ms;
+        transition: opacity 200ms; }
+        #index-page .section-object .info .content h4 {
+          font-size: 18px;
+          text-transform: uppercase;
+          margin-bottom: 22px;
+          text-align: center; }
+        #index-page .section-object .info .content .more {
+          width: 170px;
+          display: block;
+          border: 2px solid white;
+          font-size: 20px;
+          line-height: 31px;
+          text-align: center;
+          text-decoration: none;
+          color: white; }
+      #index-page .section-object .info:hover .content {
+        opacity: 1; }
+    #index-page .section-object .next {
+      text-align: center; }
+      #index-page .section-object .next .go {
+        display: inline-block;
+        font-size: 18px;
+        width: 182px;
+        line-height: 36px;
+        border: 2px dotted white;
+        color: white;
+        text-decoration: none; }
+  #index-page .clients {
+    background: url("/images/site/back.jpg");
+    padding: 9px 30px 4px; }
+    #index-page .clients #carousel_clients {
+      padding: 18px 92px; }
+    #index-page .clients h3 {
+      margin-top: 11px;
+      font-size: 24px;
+      margin-bottom: 15px;
+      text-align: center; }
+    #index-page .clients .client {
+      margin-right: 29px; }
+      #index-page .clients .client img {
+        float: left;
+        width: 77px;
+        height: 77px;
+        border-radius: 50%;
+        margin-top: 7px; }
+      #index-page .clients .client .name {
+        font-size: 24px;
+        margin-left: 100px; }
+      #index-page .clients .client .text {
+        font-size: 14px;
+        margin-left: 100px; }
+    #index-page .clients .owl-controls .owl-nav {
+      font-size: 60px; }
+      #index-page .clients .owl-controls .owl-nav .owl-prev {
+        position: absolute;
+        cursor: pointer;
+        top: 15%;
+        left: -125px; }
+      #index-page .clients .owl-controls .owl-nav .owl-next {
+        position: absolute;
+        cursor: pointer;
+        top: 15%;
+        right: -125px; }
+
+@media (max-width: 700px) {
+  #carousel .owl-dots {
+    bottom: 11px !important; }
+
+  .slider .item a {
+    font-size: 15px !important;
+    margin-bottom: 11px; } }
+@media (max-width: 991px) {
+  .item {
+    padding: 0 68px; } }
+@media (max-width: 1300px) {
+  #carousel .owl-dots {
+    bottom: 22px !important; } }
+@media (max-width: 530px) {
+  .buttons .all-item {
+    margin-right: 0px !important; }
+
+  #carousel_clients {
+    padding: 0px !important; }
+    #carousel_clients .text {
+      margin-bottom: 20px; }
+
+  .contacts .address {
+    white-space: normal !important; }
+
+  .contacts .phone {
+    white-space: nowrap !important; }
+
+  .slider {
+    padding-top: 0px !important; }
+    .slider .item {
+      padding: 0 23px; }
+      .slider .item .description {
+        text-align: justify;
+        margin-bottom: 15px !important; } }
+
+/*# sourceMappingURL=index.css.map */

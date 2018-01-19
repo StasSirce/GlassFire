@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic-ext");
+.container {
+  max-width: 1142px;
+  position: relative;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif; }
+
+header {
+  font-size: 14px; }
+  header .row-header {
+    padding: 21px 0; }
+    header .row-header .logo {
+      float: left; }
+    header .row-header .description {
+      float: left;
+      line-height: 18px; }
+    header .row-header i {
+      padding-right: 8px; }
+    header .row-header .contacts {
+      float: left;
+      line-height: 19px;
+      background: none;
+      -webkit-appearance: none; }
+      header .row-header .contacts span {
+        display: block; }
+      header .row-header .contacts .address i {
+        padding-right: 10px; }
+    header .row-header .call {
+      float: right;
+      font-size: 20px; }
+      header .row-header .call a {
+        color: black; }
+      header .row-header .call i {
+        padding-right: 5px; }
+      header .row-header .call .order-call {
+        cursor: pointer;
+        text-decoration: none;
+        color: white !important;
+        display: inline-block;
+        width: 187px;
+        font-size: 16px;
+        text-transform: uppercase;
+        background: #ae1100;
+        text-align: center;
+        margin-top: 3px;
+        line-height: 30px; }
+  header .menu {
+    position: relative;
+    background: #ae1100;
+    margin-top: -4px; }
+    header .menu .bars {
+      font-size: 44px;
+      color: white;
+      position: absolute;
+      right: 38px;
+      cursor: pointer;
+      display: none;
+      top: 0;
+      z-index: 999; }
+    header .menu .cross {
+      font-size: 44px;
+      z-index: 999;
+      color: white;
+      position: absolute;
+      right: 38px;
+      cursor: pointer;
+      display: none;
+      top: 0;
+      -webkit-text-stroke: 6px #ae1100; }
+    header .menu .main-menu {
+      padding: 0;
+      margin: 0; }
+      header .menu .main-menu .main-li {
+        list-style-type: none;
+        display: inline-block;
+        position: relative; }
+      header .menu .main-menu .menu-drop {
+        position: absolute;
+        display: none;
+        z-index: 999;
+        padding: 0;
+        background: white;
+        left: -24px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35); }
+        header .menu .main-menu .menu-drop li {
+          list-style-type: none;
+          padding: 0px; }
+          header .menu .main-menu .menu-drop li a {
+            color: black;
+            white-space: nowrap;
+            padding: 9px 71px 9px 38px;
+            display: block;
+            margin: 0; }
+            header .menu .main-menu .menu-drop li a:hover {
+              background: #ae1100;
+              color: white; }
+      header .menu .main-menu a, header .menu .main-menu .title {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        margin-right: 37px;
+        display: inline-block;
+        padding: 18px 0;
+        position: relative;
+        cursor: pointer; }
+        header .menu .main-menu a i, header .menu .main-menu .title i {
+          position: relative;
+          top: -3px;
+          left: 6px; }
+
+.modal-call {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  background: rgba(29, 27, 27, 0.7);
+  display: none; }
+  .modal-call .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .modal-call .wrapper form {
+      background: white;
+      max-width: 400px;
+      padding: 30px; }
+      .modal-call .wrapper form .title-text {
+        margin-bottom: 20px; }
+      .modal-call .wrapper form input {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 8px;
+        line-height: 35px; }
+      .modal-call .wrapper form .name, .modal-call .wrapper form .phone {
+        text-indent: 13px; }
+      .modal-call .wrapper form .send {
+        text-align: center;
+        background: #ae1100;
+        color: white;
+        border: none; }
+
+.modal-window {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  background: rgba(29, 27, 27, 0.7);
+  display: none; }
+  .modal-window .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .modal-window .wrapper .image {
+      background: white;
+      max-width: 80%;
+      padding: 20px;
+      position: relative; }
+      .modal-window .wrapper .image i {
+        font-size: 51px;
+        color: #191717; }
+      .modal-window .wrapper .image img {
+        max-width: 100%;
+        max-height: 70vh;
+        text-align: center; }
+      .modal-window .wrapper .image .left {
+        text-align: center;
+        width: 60px;
+        height: 120px;
+        background-size: contain;
+        position: absolute;
+        left: 7px;
+        top: 44%;
+        cursor: pointer; }
+      .modal-window .wrapper .image .right {
+        text-align: center;
+        width: 60px;
+        height: 120px;
+        background-size: contain;
+        position: absolute;
+        right: 7px;
+        top: 44%;
+        cursor: pointer; }
+
+footer {
+  overflow: hidden;
+  padding-top: 35px;
+  background: black;
+  color: white; }
+  footer a {
+    color: white; }
+  footer .row .logo {
+    float: left; }
+  footer .row .description {
+    float: left;
+    line-height: 17px;
+    margin-right: 27px; }
+  footer .row .contacts {
+    float: left;
+    line-height: 18px; }
+    footer .row .contacts .address {
+      white-space: nowrap; }
+    footer .row .contacts span {
+      display: block; }
+      footer .row .contacts span i {
+        padding-right: 9px; }
+  footer .row .map-drive {
+    text-decoration: none;
+    float: left;
+    color: white;
+    display: block;
+    width: 235px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #ae1100;
+    text-align: center;
+    margin-top: 2px;
+    line-height: 68px; }
+  footer .copyright {
+    font-size: 14px;
+    color: #767676;
+    text-align: center;
+    padding-bottom: 28px;
+    margin-top: 25px; }
+
+@media (max-width: 991px) {
+  header .row-header .logo {
+    float: none; }
+    header .row-header .logo .logo {
+      float: none;
+      display: block;
+      margin: 0;
+      text-align: center; }
+  header .row-header .description {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%; }
+  header .row-header .call {
+    text-align: center;
+    width: 100%;
+    float: left; }
+    header .row-header .call a {
+      display: inline-block;
+      margin-left: 10px; }
+
+  footer .row .logo {
+    float: initial !important;
+    text-align: center !important; }
+  footer .row .description {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0; }
+  footer .row .map-drive {
+    width: 100%; } }
+@media (max-width: 992px) {
+  header .menu {
+    min-height: 60px;
+    padding-top: 10px;
+    padding-left: 39px !important; }
+    header .menu .main-li {
+      display: block !important; }
+    header .menu a {
+      display: inline-block;
+      padding: 12px 0;
+      white-space: nowrap; }
+    header .menu .bars {
+      display: block; }
+    header .menu .row-mobile {
+      display: none; }
+    header .menu .menu-drop {
+      position: relative !important;
+      display: none; }
+      header .menu .menu-drop li a {
+        text-align: left;
+        margin: 0; } }
+@media (min-width: 993px) {
+  .main-li:hover > .menu-drop {
+    display: block !important; }
+
+  .row-mobile {
+    display: block !important; }
+
+  .cross {
+    display: none !important; }
+
+  .bars {
+    display: none !important; }
+
+  .menu {
+    padding: 0px !important; } }
+@media (max-width: 800px) {
+  #carousel .owl-nav {
+    display: none; } }
+
+/*# sourceMappingURL=site.css.map */

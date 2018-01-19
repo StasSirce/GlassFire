@@ -1,0 +1,100 @@
+.object-page {
+  background: url("/images/site/back.jpg");
+  padding: 27px 0; }
+  .object-page h3 {
+    font-size: 24px; }
+  .object-page .item {
+    border: 1px solid #c2c2c2;
+    margin-bottom: 23px;
+    padding: 16px 0 21px 16px; }
+    .object-page .item .image {
+      float: left;
+      position: relative; }
+      .object-page .item .image .plus {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        background: rgba(142, 14, 0, 0.8);
+        text-align: center;
+        padding-top: 31%; }
+        .object-page .item .image .plus i {
+          color: white;
+          font-size: 30px; }
+      .object-page .item .image:hover .plus {
+        opacity: 1; }
+    .object-page .item .info {
+      margin-left: 235px; }
+      .object-page .item .info h4 {
+        font-size: 18px;
+        margin: 0; }
+      .object-page .item .info a {
+        text-align: center;
+        width: 161px;
+        color: white;
+        font-size: 12px;
+        line-height: 22px;
+        text-decoration: none;
+        background: #ae1100;
+        display: inline-block;
+        margin: 8px 0px; }
+      .object-page .item .info .text {
+        font-size: 14px;
+        line-height: 18px; }
+  .object-page .block-1, .object-page .block-2, .object-page .block-3 {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    background: white; }
+  .object-page .block-2 {
+    margin-bottom: 30px; }
+  .object-page .left-col {
+    width: 745px;
+    float: left;
+    margin-right: 31px;
+    padding: 0 25px; }
+  .object-page .sidebar {
+    width: 366px;
+    float: left; }
+  .object-page .desc-item {
+    padding-top: 1px;
+    padding-bottom: 11px; }
+    .object-page .desc-item h3 {
+      padding-left: 20px;
+      margin-bottom: 14px; }
+    .object-page .desc-item .title {
+      margin-bottom: 11px;
+      font-size: 16px;
+      background: #ae1100;
+      color: white;
+      padding-left: 20px; }
+      .object-page .desc-item .title i {
+        padding-right: 10px; }
+    .object-page .desc-item ul li {
+      list-style-type: square;
+      color: #ae1100; }
+      .object-page .desc-item ul li span {
+        color: black; }
+  .object-page .give-catalog {
+    padding: 1px 28px 0px 23px; }
+    .object-page .give-catalog p {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 16px; }
+    .object-page .give-catalog h3 {
+      margin-bottom: 2px; }
+    .object-page .give-catalog form input {
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 15px;
+      line-height: 37px; }
+    .object-page .give-catalog form .name, .object-page .give-catalog form .phone {
+      text-indent: 15px; }
+    .object-page .give-catalog form .send {
+      text-align: center;
+      background: #ae1100;
+      color: white;
+      border: none;
+      margin-top: -5pd; }
+
+/*# sourceMappingURL=object.css.map */

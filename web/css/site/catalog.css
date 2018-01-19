@@ -1,0 +1,96 @@
+.catalog-page {
+  background: url("/images/site/back.jpg");
+  padding: 28px 0; }
+  .catalog-page .block-1, .catalog-page .block-2, .catalog-page .block-3 {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    background: white; }
+  .catalog-page .block-2 {
+    margin-bottom: 30px; }
+  .catalog-page .left-col {
+    width: 745px;
+    float: left;
+    margin-right: 31px;
+    padding: 0 0px 20px 37px; }
+    .catalog-page .left-col .and-buy {
+      margin-left: -15px; }
+      .catalog-page .left-col .and-buy a {
+        background: #ae1100;
+        width: 699px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none; }
+    .catalog-page .left-col .item {
+      width: 224px;
+      font-size: 16px;
+      float: left;
+      margin-right: 17px;
+      margin-bottom: 20px;
+      padding: 5px 5px 14px 5px;
+      border: 1px solid #c2c2c2; }
+      .catalog-page .left-col .item h3 {
+        margin-bottom: 14px; }
+      .catalog-page .left-col .item img {
+        width: 211px;
+        height: 152px;
+        margin-bottom: 10px; }
+      .catalog-page .left-col .item .title {
+        margin-left: 7px;
+        line-height: 20px;
+        margin-bottom: 8px; }
+      .catalog-page .left-col .item a {
+        display: inline-block;
+        background: #ae1100;
+        margin-left: 8px;
+        text-align: center;
+        color: white;
+        width: 111px;
+        line-height: 30px;
+        text-decoration: none; }
+  .catalog-page .sidebar {
+    width: 366px;
+    float: left; }
+  .catalog-page .desc-item {
+    padding-top: 1px;
+    padding-bottom: 11px; }
+    .catalog-page .desc-item h3 {
+      padding-left: 20px;
+      margin-bottom: 14px; }
+    .catalog-page .desc-item .title {
+      margin-bottom: 11px;
+      font-size: 16px;
+      background: #ae1100;
+      color: white;
+      padding-left: 20px; }
+      .catalog-page .desc-item .title i {
+        padding-right: 10px; }
+    .catalog-page .desc-item ul li {
+      list-style-type: square;
+      color: #ae1100; }
+      .catalog-page .desc-item ul li span {
+        color: black; }
+  .catalog-page .give-catalog {
+    padding: 1px 28px 0px 23px; }
+    .catalog-page .give-catalog p {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 16px; }
+    .catalog-page .give-catalog h3 {
+      margin-bottom: 2px; }
+    .catalog-page .give-catalog form input {
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 15px;
+      line-height: 37px; }
+    .catalog-page .give-catalog form .name, .catalog-page .give-catalog form .phone {
+      text-indent: 15px; }
+    .catalog-page .give-catalog form .send {
+      text-align: center;
+      background: #ae1100;
+      color: white;
+      border: none;
+      margin-top: -5pd; }
+
+/*# sourceMappingURL=catalog.css.map */
